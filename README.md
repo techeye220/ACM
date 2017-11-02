@@ -11,7 +11,7 @@ Template
 + Graph
 + Math
 + Person
-+ Search
++ Others
 + String
 + PDF
 
