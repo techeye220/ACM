@@ -1,3 +1,4 @@
 + StringMethods(String类库函数)(c++)
 + KMP(kmp字符串匹配算法)(c++)
 + SA(后缀数组与最长公共前缀)(c++)
++ dictionary(字典匹配,例题)(c++)
