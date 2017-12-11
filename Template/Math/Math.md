@@ -3,3 +3,4 @@
 + Subset (求大小为K的所有子集)(C++)
 + SlevePrime (素数筛法)(C++)
 + ExtendedEuclid（扩展欧几里得算法）(C++)
++ SG (博弈论SG函数，求先手或者后手赢)(C++)
