@@ -4,3 +4,4 @@
 + SlevePrime (素数筛法)(C++)
 + ExtendedEuclid（扩展欧几里得算法）(C++)
 + ModuleInverse(模拟元算法)(C++)
++ SG (博弈论SG函数，求先手或者后手赢)(C++)
