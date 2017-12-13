@@ -1,3 +1,4 @@
 + Binary Indexed Tree(树状数组)(C++)
 + Heap (二叉大顶堆)(c++)
 + SegTreeNode(求最小值线段树)(c++)
++ Treap(二叉搜索堆)(c++)
