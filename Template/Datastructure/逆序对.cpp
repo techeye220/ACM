@@ -40,7 +40,7 @@ int main()
             int a;
             cin>>a;
             insert(a,1);
-            ans+=i-insert(a);//统计当前序列中大于a的元素的个数
+            ans+=i-getsum(a);//统计当前序列中大于a的元素的个数
         }
         cout<<ans<<endl;
     }
