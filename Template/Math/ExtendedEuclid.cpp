@@ -1,4 +1,4 @@
-//Èç¹û GCD(a,b) GCD(a,b) GCD(a,b) GCD(a,b) = d, Ôò´æÔÚ x, y, Ê¹ d = ax + by
+//å¦‚æžœ GCD(a,b) = d, åˆ™å­˜åœ¨ x, y, ä½¿ d = ax + by
 //extended_euclid(a, b) = ax + by
 
 #include <iostream>
