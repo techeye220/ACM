@@ -1,8 +1,0 @@
-+ Binary Indexed Tree(树状数组)(C++)
-+ Heap (二叉大顶堆)(c++)
-+ SegTreeNode(求最小值线段树)(c++)
-+ Treap(二叉搜索堆)(c++)
-+ Treap_kth(名次树)(c++)
-+ 逆序对(求逆序对个数)(c++)
-+ Trie(字典树)(c++)
-+ RMQ(区间最小查询)(c++)
