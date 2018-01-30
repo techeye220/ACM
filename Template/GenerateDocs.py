@@ -16,19 +16,18 @@ document = Document()
 
 document.add_heading('HHU ACM Template', 0)
 
-p = document.add_paragraph('Writter ')
-p.add_run('Luo Longjun, ').bold = True
-p.add_run('Tang ShengYang ').bold = True
 document.add_page_break()
 
 def Handle_Categeory(name) :
-    head = document.add_heading('-------' + name + '-------', level=1)
-    head.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.CENTER
     path = "./" + name
     files = os.listdir(path)
-    index = 0;
+    index = 0
+    if(len(files) == 0) :
+        return
+    head = document.add_heading('-------' + name + '-------', level=1)
+    head.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.CENTER
     for file in files:
-        if not os.path.isdir(file) and os.path.splitext(file)[1] == '.cpp':
+        if not os.path.isdir(file) and os.path.splitext(file)[1] == '.md':
             # print(os.path.splitext(file)[0])
             index = index + 1
             document.add_heading(str(index) + '--' + os.path.splitext(file)[0] , level=2)
